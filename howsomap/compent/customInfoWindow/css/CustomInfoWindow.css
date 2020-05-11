@@ -1,0 +1,172 @@
+﻿.customPopup
+{
+    position:absolute;
+    z-index:40;
+    font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size:12px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow: 0 0 0.75em #777777;
+    -webkit-box-shadow: 0 0 0.75em #777777;
+    width:290px;
+}
+
+.customPopup .titlePane
+{
+    background-color: #007bff;
+    color: #FFFFFF;
+    line-height: 20px;
+    padding-left: 6px;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    cursor: default;
+}
+
+.customPopup .titlePane .title 
+{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.customPopup .titleButton.close 
+{
+    top: 13px;
+    right: 15px;
+    background-position: 0 0;
+    width: 12px;
+    height: 17px;
+}
+
+.customPopup .titleButton.pre {
+    right: 64px;
+    background-position: -29px 0;
+    width: 9px;
+    height: 17px;
+    top: 13px;
+}
+
+.customPopup .titleButton.next {
+    right: 46px;
+    background-position: -16px 0;
+    width: 9px;
+    height: 17px;
+    top: 13px;
+}
+
+.customPopup .hidden {
+    display: none;
+}
+
+.customPopup .titleButton {
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+    background: url(../img/popup.png) no-repeat;
+}
+
+
+.customPopup .pointer
+{
+    background:#ffffff;
+    height:16px;
+    position:absolute;
+    width:16px;
+    z-index:0;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    box-shadow: 0 0 0.75em #777777; 
+    -webkit-box-shadow: 0 0 0.75em #777777;
+}
+
+.customPopup .pointer.left
+{
+    display: block;
+    left: -8px;
+    top: 50%;
+    z-index:-1;
+}
+
+.customPopup .pointer.right
+{
+    display: block;
+    right: -8px;
+    top: 50%;
+    z-index:-1;
+}
+
+.customPopup .pointer.topleft
+{
+    display: block;
+    background:#007bff;
+    left:7px;
+    top:-8px;
+    z-index:-1;
+}
+
+.customPopup .pointer.topright
+{
+    display: block;
+    background:#007bff;
+    right:7px;
+    top:-8px;
+    z-index:-1;
+}
+
+.customPopup .pointer.bottomleft
+{
+    display: block;
+    left:7px;
+    bottom:-8px;
+    z-index:-1;
+}
+
+.customPopup .pointer.bottomright
+{
+    display: block;
+    right:7px;
+    bottom:-8px;
+    z-index:-1;
+}
+
+
+.customPopup .contentTotalPane {
+    position: relative;
+    width: 290px;
+    z-index: 1;
+}
+
+.customPopup .contentPane {
+    position: relative;
+    max-height: 290px;
+    overflow: auto;
+    padding: 10px 6px 6px 10px;
+    color: #333333;
+    background:#ffffff;
+}
+
+.customPopup .attrTable
+{
+    border-collapse:collapse;
+    word-break:break-all
+}
+
+.customPopup  .attrTable .attrName
+{
+    padding: 2px;
+    padding-bottom: 5px;
+    color: #333;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+.customPopup .attrTable .attrValue
+{
+    padding: 2px;
+    padding-bottom: 5px;
+    font-size: 14px; 
+}
